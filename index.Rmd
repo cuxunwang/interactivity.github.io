@@ -1,0 +1,26 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Xun's awesome website
+
+You can learn about me [here](about.html)
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# Let's add some links
+
+I often use [google](https://www.google.com) to do **data science**.
+
+# Let's add an image
+
+here's my cat:
+
+![](images/ted.jpg)
+
+
+
