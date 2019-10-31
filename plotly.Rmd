@@ -2,6 +2,7 @@
 title: "Plotly Examples"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -65,5 +66,4 @@ nyc_airbnb %>%
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
   plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
 ```
-
 
